@@ -1,15 +1,28 @@
+body {
+  font-family: sans-serif;
+  color: black;
+}
 .larger-text {
-  font-size: 32px;
-  font-color: black; 
+  font-size: 32px; 
 }
 .box {
   border: 0px solid black;
   padding: 10px;
   background-color: lightgray;
   text-align: center;
-  width: 2000px;
+  width: 1750px;
   height: 100px;
 }
 body {
   background-color: white;
+}
+.smaller-text {
+  font-size: 25px;
+}
+.grow { transition: all .2s ease-in-out; 
+text-align:center;
+font-size: 25px;}
+.grow:hover { transform: scale(1.5); }
+h1 {
+  color: black;
 }
